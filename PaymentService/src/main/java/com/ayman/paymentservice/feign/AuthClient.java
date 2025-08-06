@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface AuthClient {
 
 
-    @GetMapping(ApiRoutes.AUTH + "get-by-username")
+    @GetMapping(ApiRoutes.AUTH + "/get-by-username")
     ResponseEntity<UserWrapper> getUserByUsername(@RequestParam String username);
 
-    @GetMapping(ApiRoutes.AUTH + "get-by-id")
+    @GetMapping(ApiRoutes.AUTH + "/get-by-id")
     ResponseEntity<UserWrapper> getUserById(@RequestParam Long userId);
 }
 
