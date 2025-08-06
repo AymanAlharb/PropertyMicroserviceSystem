@@ -1,6 +1,5 @@
 package com.ayman.notificationservice.model.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 

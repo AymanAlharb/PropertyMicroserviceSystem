@@ -4,7 +4,6 @@ import com.ayman.propertyservice.model.enums.PropertyStatusEnum;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Set;
 
 @Getter
 @Setter

@@ -2,7 +2,6 @@ package com.ayman.transactionservice.feign;
 
 import com.ayman.transactionservice.config.FeignClientConfig;
 import com.ayman.transactionservice.constant.ApiRoutes;
-import com.ayman.transactionservice.model.dto.external.PropertyWrapper;
 import com.ayman.transactionservice.model.dto.external.UserWrapper;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;

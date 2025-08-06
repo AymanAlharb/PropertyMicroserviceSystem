@@ -1,11 +1,9 @@
 package com.ayman.authservice.model.entity;
 
 import com.ayman.authservice.model.enums.UserRoleEnum;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Set;
 
 @Getter
 @Setter
